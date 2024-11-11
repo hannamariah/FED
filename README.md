@@ -16,35 +16,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Hanna Berhane
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Voor nu is het blauw, ik moet er weer in komen. Met de tijd rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  responsive
  
 </details>
-
-
-
 
 
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary> fashion inspired page</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  arte antwerp (fashion brand) : https://arte-antwerp.com/?tw_source=google&tw_adid=705760869247&tw_campaign=12454666510&gad_source=1&gclid=EAIaIQobChMIxI-SnpPViQMVy5WDBx2JywmOEAAYASAAEgLtNvD_BwE
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/artehome1.jpg" width="375px" alt="overzicht beginpagina met een verhaal over brand + video collab">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/artehome2.jpg" width="375px" alt="archive : overziht van alle drops deze is winter 2024, fotoalbum">
+
+  <img src="readme-images/artekleding2.jpg" width="375px" alt="archive : overziht van alle kleding">
  
 </details>
 
