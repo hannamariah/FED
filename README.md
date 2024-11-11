@@ -36,11 +36,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   arte antwerp (fashion brand) : https://arte-antwerp.com/?tw_source=google&tw_adid=705760869247&tw_campaign=12454666510&gad_source=1&gclid=EAIaIQobChMIxI-SnpPViQMVy5WDBx2JywmOEAAYASAAEgLtNvD_BwE
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  1 : overzicht beginpagina met een verhaal over brand + video collab
   <img src="readme-images/artehome1.jpg" width="375px" alt="overzicht beginpagina met een verhaal over brand + video collab">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  archive : overziht van alle drops deze is winter 2024, fotoalbum - 3 = overzicht van alle kleding. nog niet zeker welke het word!
   <img src="readme-images/artehome2.jpg" width="375px" alt="archive : overziht van alle drops deze is winter 2024, fotoalbum">
 
   <img src="readme-images/artekleding2.jpg" width="375px" alt="archive : overziht van alle kleding">
