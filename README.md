@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Voor nu is het blauw, ik moet er weer in komen. Met de tijd rood
 
   #### Je focus:
-  responsive
+  responsive ( twijfelgeval)
  
 </details>
 
