@@ -1,31 +1,158 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
+/* CSS Custom Properties */
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+    --hoofd-kleur: #000000; /* Zwart voor tekst */
+    --accent-kleur: #D3BBAF; /* Beige */
+    --achtergrond-kleur: #FAF4EF; /* Licht beige */
+    --subtiele-achtergrond: #F7EDE6; /*  lichter beige */
+    --hover-kleur: #C3A292; /* Donkerder beige */
+}
+
+/* Algemene instellingen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--hoofd-kleur);
+    background-color: var(--achtergrond-kleur);
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: var(--achtergrond-kleur);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--hoofd-kleur);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--accent-kleur);
+}
+
+/* Introductie */
+#introductie {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(to bottom, var(--achtergrond-kleur), var(--subtiele-achtergrond));
+}
+
+#introductie h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#introductie p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#introductie .cta-button {
+    background: var(--accent-kleur);
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+#introductie .cta-button:hover {
+    background: var(--hover-kleur);
 }
 
 
+/*  gifje */
+#promotie {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.promo-gif {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/*  Collectie */
+#new-collection {
+    padding: 2rem 1rem;
+}
+
+#new-collection h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.product {
+    text-align: center;
+    background: var(--achtergrond-kleur);
+    padding: 1rem;
+    border: 1px solid var(--subtiele-achtergrond);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--accent-kleur);
+}
+
+/* Footer */
+footer {
+    background: #D3BBAF; 
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+/* Footer styling */
 
 
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
+footer a:hover {
+    color: var(--accent-kleur);
+}
