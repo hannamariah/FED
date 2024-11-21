@@ -36,14 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  24kae : https://www.24-kae.com/?gad_source=1&gclid=EAIaIQobChMIgJOorMfpiQMVKaODBx31KTgfEAAYASAAEgL1dPD_BwE
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  1 : overzicht beginpagina met slideshows + anitmaties
-  <img src="readme-images/artehome1.jpg" width="375px" alt="overzicht beginpagina met een verhaal over brand + video collab">
+  1 : overzicht beginpagina met slide shows, gif en een video
+
+  <img src="readme-images/kaeoverzicht.jpg" width="375px" alt="overzicht beginpagina met een verhaal over brand + video collab">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  archive : overzicht van alle drops deze is winter 2024, fotoalbum - 3 = overzicht van alle kleding.nog niet zeker
-  <img src="readme-images/artehome2.jpg" width="375px" alt="archive : overziht van alle drops deze is winter 2024, fotoalbum">
+  uitgekozen sieraad : overzicht, prijs en alle info
+  <img src="readme-images/kaeringpagina.jpg" width="375px" alt="archive : overziht van alle drops deze is winter 2024, fotoalbum">
 
-  <img src="readme-images/artekleding2.jpg" width="375px" alt="archive : overziht van alle kleding">
  
 </details>
 
@@ -91,7 +91,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+ wat ging goed : 
+  . basis html nog goed begrijpen
+  . een leuke site uitgekozen
+
+ Wat ging minder : 
+
+  . meer oefenen met coderen
+  . proberen zo min mogelijk div te gebruiken
 
 
   ### Agenda voor meeting
