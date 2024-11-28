@@ -137,7 +137,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   Ik merk dat ik er nogsteeds in moet code, ik geef het snel op. Door de korte periode krijg ik wel beetje stress van, maar so far so good.
 
-  Ik ben nu bezig met mijn hamburgermenu en alles juist positioneren. Ik oefen veel met flexbox en de opdrachten.
+  Ik ben nu bezig met mijn hamburgermenu en alles juist positioneren. (hamburgermenu werkt) Ik oefen veel met flexbox en de opdrachten.
+
+  kleuren kloppen nu ook.
+
+  vraag : hoe krijg ik de header p helemaal boven aan en vast en responsive.
 
 
 
