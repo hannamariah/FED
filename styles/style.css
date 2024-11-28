@@ -92,67 +92,250 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/*  Collectie */
-#new-collection {
-    padding: 2rem 1rem;
-}
-
-#new-collection h2 {
+/* Algemene styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    justify-items: center;
-}
-
-.product {
+  }
+  
+  /* Algemene styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    background: var(--achtergrond-kleur);
-    padding: 1rem;
-    border: 1px solid var(--subtiele-achtergrond);
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+  }
+  
+  /* Foto galerij */
+  #fotoGalerij {
+    display: flex; /* Gebruik flexbox */
+    flex-wrap: wrap; /* Sta toe dat de items worden gewrapt indien nodig */
+    justify-content: space-between; /* Ruimte tussen items */
+    align-items: center; /* Verticaal centreren */
+    list-style: none;
+    padding: 0;
+    margin: 1rem auto;
+    max-width: 100%; /* Volledige breedte voor mobiel */
+  }
+  
+  #fotoGalerij li {
+    flex: 1 1 calc(25% - 1rem); /* Elk item neemt 25% van de breedte met ruimte ertussen */
+    margin: 0.5rem; /* Ruimte rondom de items */
+  }
+  
+  #fotoGalerij img {
+    width: 100%; /* Afbeeldingen vullen hun container */
+    height: auto; /* Behoud de verhouding */
+    border-radius: 5px; /* Optioneel: afgeronde hoeken */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optioneel: subtiele schaduw */
+  }
+  
+  /* Responsieve aanpassingen */
+  @media (max-width: 768px) {
+    #fotoGalerij li {
+      flex: 1 1 calc(50% - 1rem); /* Twee afbeeldingen per rij op tablet */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #fotoGalerij li {
+      flex: 1 1 calc(50% - 1rem); /* Twee afbeeldingen per rij op mobiele telefoons */
+    }
+  }
+  
+  
 
-.product img {
-    max-width: 100%;
+  
+  /* Slideshow styling */
+  #slideshow {
+    position: relative;
+    max-width: 90%; /* Volledige breedte van het scherm op mobiel */
+    margin: 2rem auto;
+    overflow: hidden;
+  }
+  
+  #slideshow ul {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #slideshow li {
+    min-width: 100%; /* Zorgt ervoor dat één slide volledig zichtbaar is */
+  }
+  
+  #slideshow img {
+    width: 100%; /* Afbeeldingen vullen de volledige breedte van de container */
     height: auto;
-    margin-bottom: 1rem;
-}
+  }
+  
+  /* Navigatie bolletjes */
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav button {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 0.5rem;
+    background-color: #bbb;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav button.active {
+    background-color: #717171;
+  }
+  
+  nav button:hover {
+    background-color: #555;
+  }
+  
+  /* Mobiele optimalisatie */
+  @media (max-width: 48em) {
+    #slideshow {
+      max-width: 100%; /* Volledige breedte van het scherm */
+      margin: 1rem auto;
+    }
+  
+    #slideshow img {
+      max-height: 20em; /* Beperk de hoogte van de afbeeldingen voor mobiel */
+      object-fit: cover; /* Zorgt ervoor dat de afbeeldingen goed gevuld blijven */
+    }
+  
+    nav button {
+      width: 1rem; /* Kleinere bolletjes voor mobiel */
+      height: 1rem;
+      margin: 0 0.3rem;
+    }
+  }
+  
+  @media (max-width: 30em) {
+    #slideshow img {
+      max-height: 15em; /* Nog kleinere hoogte voor zeer kleine schermen */
+    }
+  
+    nav button {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
+  }
 
-.product h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-}
 
-.product p {
-    font-size: 1rem;
-    font-weight: bold;
-    color: var(--accent-kleur);
-}
 
-/* Footer */
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* /* Footer *** */
+
+  /* Algemene styling */
 footer {
-    background: #D3BBAF; 
-    color: #ffffff;
+    background-color: #d9c5c5; /* Donkere achtergrondkleur */
+    color: #fff; /* Witte tekst */
+    padding: 2rem 1rem;
     text-align: center;
-    padding: 1rem;
-    font-size: 0.8rem;
-}
-/* Footer styling */
-
-
-footer a {
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  footer ul li {
+    margin: 0.5rem 0;
+  }
+  
+  footer ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1rem;
     transition: color 0.3s ease;
-}
+  }
+  
+  footer ul li a:hover {
+    color: #D3BBAF; /* Accentkleur */
+  }
+  
+  /* Secties binnen de footer */
+  footer section {
+    margin-bottom: 2rem;
+  }
+  
+  footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Formulier styling */
+  footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer input[type="email"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  footer button {
+    padding: 0.5rem 1rem;
+    background-color: #D3BBAF; /* Accentkleur */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer button:hover {
+    background-color: #b3936d; /* Donkerdere accentkleur */
+  }
+  
+  /* Responsieve styling */
+  @media (min-width: 48em) {
+    footer {
+      text-align: left;
+    }
+  
+    footer section {
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      width: 30%;
+      margin: 0;
+      padding: 0 1rem;
+    }
+  
+    footer ul {
+      margin: 0;
+    }
+  }
+  
 
-footer a:hover {
-    color: var(--accent-kleur);
-}
+  

@@ -115,9 +115,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Fijne gesprek met de studentassisenten en groepje. Uitleg was duidelijk en je weet wat er verwacht word van je.
+  - Het was fijn om code te krijgen voor een slideshow, ik snap het nu wat beter
+  - 
   - ...
 
 </details>
@@ -132,7 +132,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  code begrijpen gaat goed, toepassen alleen niet.
+  Bezig geweest met slide show, positioneren nog mee oefenen.
+  
+  Ik merk dat ik er nogsteeds in moet code, ik geef het snel op. Door de korte periode krijg ik wel beetje stress van, maar so far so good.
+
+  Ik ben nu bezig met mijn hamburgermenu en alles juist positioneren. Ik oefen veel met flexbox en de opdrachten.
+
 
 
   ### Agenda voor meeting

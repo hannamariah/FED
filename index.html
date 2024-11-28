@@ -13,9 +13,8 @@
 </head>
 
 <body>
-	<h1>24kae-luxe sieraden</h1>
 
-    <header>
+    
         <nav>
             <ul>
                 <li><a href="#">Shop</a></li>
@@ -25,103 +24,89 @@
                 <li><a href="#">Log in</a></li>
             </ul>
         </nav>
-    </header>
+
+ 
+	
+        <header>
+            <h1>24kae luxe sieraden</h1>
+          </header>
+          
+          <section id="slideshow" aria-label="Slideshow met 4 afbeeldingen">
+            <ul>
+              <li><img src="images/homepagina.jpg" alt="Afbeelding 1"></li>
+              <li><img src="images/jewlerycare.jpg" alt="Afbeelding 2"></li>
+              <li><img src="images/kaestrik.jpg" alt="Afbeelding 3"></li>
+              <li><img src="images/oorbel2.jpg" alt="Afbeelding 4"></li>
+            </ul>
+          
+            <nav>
+              <button onclick="currentSlide(0)" aria-label="Ga naar afbeelding 1"></button>
+              <button onclick="currentSlide(1)" aria-label="Ga naar afbeelding 2"></button>
+              <button onclick="currentSlide(2)" aria-label="Ga naar afbeelding 3"></button>
+              <button onclick="currentSlide(3)" aria-label="Ga naar afbeelding 4"></button>
+            </nav>
+          </section>
+       
 
     <main>
-        <!-- Introductie -->
-        <section id="introductie">
-            <h1>24Kae</h1>
-            <p>Een sieradencollectie gemaakt door Kae Sutherland in ons Amsterdamse atelier. Alle stukken zijn gemaakt van 925 sterling zilver, verguld met 18K goud.</p>
-            <a href="#" class="cta-button">Shop nu</a>
-        </section>
+      
+        <div class="container">
+            <img src="images/homepagina.jpg" alt="Norway" style="width:100%;">
+            <div class="text-block">
+              <h4>24kae</h4>
+              <p>Een sieradencollectie gemaakt door Kae Sutherland in ons Amsterdamse atelier.
+                 Alle stukken zijn gemaakt van 925 sterling zilver, verguld met 18K goud.</p>
+                 <a href="#" class="cta-button">Shop nu</a>
+            </div>
 
+
+            
+          </div>
         <!-- gifje -->
         <section id="promotie">
             <img src="images/kae1.gif" alt="Animatie van sieraden" class="promo-gif">
         </section>
 
-        <!-- Product overzicht -->
-        <section id="new-collection">
-            <h2>Nieuwe Collectie</h2>
-            <div class="product-grid">
-                <!-- Product 1 -->
-                <article class="product">
-                    <img src="images/ring1.jpg" alt="Ring met gekleurde stenen en gedraaide band">
-                    <h3>Ring met gekleurde stenen</h3>
-                    <p>€109,00</p>
-                </article>
-                <!-- Product 2 -->
-                <article class="product">
-                    <img src="images/ring2.jpg" alt="Gouden ring met abstracte vormen">
-                    <h3>Gouden ring met abstracte vormen</h3>
-                    <p>€129,00</p>
-                </article>
-                <!-- Product 3 -->
-                <article class="product">
-                    <img src="images/oorbel1.jpg" alt="Oorbel met parel">
-                    <h3>Oorbel met parel</h3>
-                    <p>€149,00</p>
-                </article>
-                <!-- Product 4 -->
-                <article class="product">
-                    <img src="images/oorbel2.jpg" alt="Statement oorbel met stenen">
-                    <h3>Statement oorbel</h3>
-                    <p>€159,00</p>
-                </article>
-            </div>
-        </section>
+        <section aria-label="Afbeeldingen galerij">
+            <ul id="fotoGalerij">
+              <li><img src="images/ring1.jpg" alt="Afbeelding 1"></li>
+              <li><img src="images/ring2.jpg" alt="Afbeelding 2"></li>
+              <li><img src="images/oorbel1.jpg" alt="Afbeelding 3"></li>
+              <li><img src="images/oorbel2.jpg" alt="Afbeelding 4"></li>
+            </ul>
+          </section>
+          
     </main>
 
     <footer>
-        <section id="newsletter">
-            <h2>Abonneer je op onze nieuwsbrief & ontvang 10% korting op je eerste bestelling</h2>
-            <form action="#" method="post">
-                <label for="email">E-mailadres:</label>
-                <input type="email" id="email" name="email" required>
-                <button type="submit">Abonneren</button>
-            </form>
-        </section>
-        <section id="footer-links">
-            <div>
-                <h3>Service</h3>
-                <ul>
-                    <li><a href="#">Garantie</a></li>
-                    <li><a href="#">Maattabel</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Veelgestelde vragen</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Volgorde</h3>
-                <ul>
-                    <li><a href="#">Verzenden</a></li>
-                    <li><a href="#">Retourneren</a></li>
-                    <li><a href="#">Betalen</a></li>
-                    <li><a href="#">Verkooppunten</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Info</h3>
-                <ul>
-                    <li><a href="#">Over</a></li>
-                    <li><a href="#">Algemene voorwaarden</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Disclaimer</a></li>
-                    <li><a href="#">Cookie Policy</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                </ul>
-            </div>
-        </section>
-        <section id="social-media">
-            <h3>Volg ons</h3>
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Pinterest</a></li>
-                <li><a href="#">TikTok</a></li>
-            </ul>
-        </section>
-    </footer>
+  <section aria-label="Navigatie footer">
+    <ul>
+      <li><a href="#">Over ons</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Verzending & Retournering</a></li>
+      <li><a href="#">Privacybeleid</a></li>
+      <li><a href="#">Algemene voorwaarden</a></li>
+    </ul>
+  </section>
+
+  <section aria-label="Social media">
+    <ul>
+      <li><a href="#" aria-label="Volg ons op Instagram">Instagram</a></li>
+      <li><a href="#" aria-label="Volg ons op Facebook">Facebook</a></li>
+      <li><a href="#" aria-label="Volg ons op TikTok">TikTok</a></li>
+      <li><a href="#" aria-label="Volg ons op Pinterest">Pinterest</a></li>
+    </ul>
+  </section>
+
+  <section aria-label="Nieuwsbrief inschrijving">
+    <h2>Abonneer je op onze nieuwsbrief</h2>
+    <form action="#" method="post">
+      <label for="email">E-mailadres:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Abonneer</button>
+    </form>
+  </section>
+</footer>
 
 
 	<script defer src="scripts/script.js"></script>
