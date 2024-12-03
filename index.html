@@ -1,131 +1,197 @@
 <!DOCTYPE html>
 <html lang="nl">
-	
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Hanna">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>24Kae</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="author" content="Hanna">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>24Kae</title>
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
-
 <body>
-  
-    
-    <header>
-      <ul class="header-bestellen">
-        <li><p>black week 20% off and 60% off archive sale!</p></li>
+  <header>
+    <!-- Promotiebalk -->
+    <div class="promo-bar">
+      <p>✔️ BLACK WEEK 20% OFF AND 60% OFF ARCHIVE SALE!</p>
+    </div>
+
+    <!-- Hoofdnavigatie -->
+    <nav class="nav-bar">
+      <!-- Hamburger menu -->
+      <input type="checkbox" class="toggle-menu" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger" aria-label="Menu openen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="24Kae logo">
+      </a>
+
+      <!-- Iconen rechts -->
+      <div class="nav-icons">
+        <button aria-label="Zoeken">
+          <img src="images/zoekicon.jpg" alt="Zoek icoon">
+        </button>
+        <button aria-label="Winkelmandje">
+          <img src="images/mandjeicon.jpg" alt="Mandje icoon">
+        </button>
+      </div>
+
+      <!-- Mobiele navigatie -->
+      <ul class="menu">
+        <li><a href="index.html">Shop nu</a></li>
+        <li><a href="index.html">Categorieën</a></li>
+        <li><a href="index.html">Uitgelicht</a></li>
+        <li><a href="index.html">Cadeaus</a></li>
       </ul>
-  
-      <ul class="header-iconen">
-        <!-- Logo -->
-        <li class="logo">
-          <img src="images/logo.jpg" alt="24kae logo">
-        </li>
-      
-        <!-- Iconen -->
-        <li class="icons">
-          <img src="images/zoekicon.jpg" alt="zoek icon">
-          <img src="images/mandjeicon.jpg" alt="mandje icon">
-        </li>
-        </ul>
-        </header>
-        <nav>
-          <input type="checkbox" class="toggle-menu">
-          <div class="hamburger"></div>
-          <ul class="menu">
-              <li><a href="index.html">shop nu</a></li>
-              <li><a href="index.html">categorieen</a></li>
-              <li><a href="index.html">uitgelicht</a></li>
-              <li><a href="index.html">cadeaust</a></li>
-          </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Slideshow -->
+    <section id="slideshow" aria-label="Slideshow">
+      <ul>
+        <li><img src="images/homepagina.jpg" alt="Eerste afbeelding"></li>
+        <li><img src="images/kae33.jpg" alt="Tweede afbeelding"></li>
+        <li><img src="images/kae22.jpg" alt="Derde afbeelding"></li>
+      </ul>
+      <nav aria-label="Slideshow navigatie">
+        <button data-slide="0" aria-label="Eerste slide"></button>
+        <button data-slide="1" aria-label="Tweede slide"></button>
+        <button data-slide="2" aria-label="Derde slide"></button>
       </nav>
-	
+    </section>
+  </main>
 
-
-          <h1>24kae luxe sieraden</h1>
-          <section id="slideshow" aria-label="Slideshow met 4 afbeeldingen">
-            <ul>
-              <li><img src="images/homepagina.jpg" alt="Afbeelding 1"></li>
-              <li><img src="images/jewlerycare.jpg" alt="Afbeelding 2"></li>
-              <li><img src="images/kaestrik.jpg" alt="Afbeelding 3"></li>
-              <li><img src="images/oorbel2.jpg" alt="Afbeelding 4"></li>
-            </ul>
-          
-            <nav>
-              <button onclick="currentSlide(0)" aria-label="Ga naar afbeelding 1"></button>
-              <button onclick="currentSlide(1)" aria-label="Ga naar afbeelding 2"></button>
-              <button onclick="currentSlide(2)" aria-label="Ga naar afbeelding 3"></button>
-              <button onclick="currentSlide(3)" aria-label="Ga naar afbeelding 4"></button>
-            </nav>
-          </section>
-       
-
-    <main>
+  <section class="nieuwe-collectie" aria-label="Nieuwe Collectie">
+    <div class="container">
+      <h2>Nieuwe Collectie</h2>
+      <button class="cta-button">Bekijk Alles</button>
+  
+      <section class="product-slider-section" aria-label="Product Slider">
+        <ul class="product-slider">
+          <!-- Product 1 -->
+          <li class="product">
+            <a href="#">
+              <div class="product-image">
+                <img src="images/ring1.jpg" alt="Ring met gekleurde stenen">
+              </div>
+              <p>Ring met gekleurde stenen en gedraaide band - 124137S</p>
+              <p>€109,00</p>
+              <div class="color-options">
+                <span class="color gray"></span>
+                <span class="color gold"></span>
+              </div>
+            </a>
+          </li>
       
-        <div class="container">
-            <img src="images/homepagina.jpg" alt="Norway" style="width:100%;">
-            <div class="text-block">
-              <h4>24kae</h4>
-              <p>Een sieradencollectie gemaakt door Kae Sutherland in ons Amsterdamse atelier.
-                 Alle stukken zijn gemaakt van 925 sterling zilver, verguld met 18K goud.</p>
-                 <a href="#" class="cta-button">Shop nu</a>
-            </div>
-
-
-            
-          </div>
-        <!-- gifje -->
-        <section id="promotie">
-            <img src="images/kae1.gif" alt="Animatie van sieraden" class="promo-gif">
-        </section>
-
-        <section aria-label="Afbeeldingen galerij">
-            <ul id="fotoGalerij">
-              <li><img src="images/ring1.jpg" alt="Afbeelding 1"></li>
-              <li><img src="images/ring2.jpg" alt="Afbeelding 2"></li>
-              <li><img src="images/oorbel1.jpg" alt="Afbeelding 3"></li>
-              <li><img src="images/oorbel2.jpg" alt="Afbeelding 4"></li>
-            </ul>
-          </section>
-          
-    </main>
-
-        <footer>
-      <section aria-label="Navigatie footer">
-        <ul>
-          <li><a href="#">Over ons</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Verzending & Retournering</a></li>
-          <li><a href="#">Privacybeleid</a></li>
-          <li><a href="#">Algemene voorwaarden</a></li>
+          <!-- Product 2 -->
+          <li class="product">
+            <a href="#">
+              <div class="product-image">
+                <img src="images/ring2.jpg" alt="Ring met gekleurde stenen">
+              </div>
+              <p>Ring met gekleurde stenen en gedraaide band - 124137Y</p>
+              <p>€119,00</p>
+              <div class="color-options">
+                <span class="color gray"></span>
+                <span class="color gold"></span>
+              </div>
+            </a>
+          </li>
+      
+          <!-- Product 3 -->
+          <li class="product">
+            <a href="#">
+              <div class="product-image">
+                <img src="images/oorbel1.jpg" alt="Oorbel met gekleurde stenen">
+              </div>
+              <p>Oorbel met gekleurde stenen en zoetwaterparel - 424109S</p>
+              <p>€129,00</p>
+              <div class="color-options">
+                <span class="color gray"></span>
+                <span class="color gold"></span>
+              </div>
+            </a>
+          </li>
+      
+          <!-- Product 4 -->
+          <li class="product">
+            <a href="#">
+              <div class="product-image">
+                <img src="images/oorbel2.jpg" alt="Oorbel met gekleurde stenen">
+              </div>
+              <p>Oorbel met gekleurde stenen en zoetwaterparel - 424109Y</p>
+              <p>€139,00</p>
+              <div class="color-options">
+                <span class="color gray"></span>
+                <span class="color gold"></span>
+              </div>
+            </a>
+          </li>
         </ul>
       </section>
+      
+  
+      <!-- Bekijk Alles knop -->
+      <button class="view-all">Bekijk alles <span>54 producten</span></button>
+    </div>
+  </section>
+  
+  <section class="highlight-section" aria-label="Uitgelichte Producten">
+    <div class="highlight-box">
+      <img src="images/strikje1.jpg" alt="Strikjes Familie">
+      <div class="text-overlay">
+        <h2>Strikjes Familie</h2>
+        <p>NIEUW!</p>
+        <button class="cta-button">Shop Nu</button>
+      </div>
+    </div>
+    
+    <div class="highlight-box">
+      <img src="images/kaestrik2.jpg" alt="Gifting Season">
+      <div class="text-overlay">
+        <h2>Kae's Favoriete Cadeau's</h2>
+        <p>Gifting Season</p>
+        <button class="cta-button">Shop Nu</button>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <section aria-label="Navigatie footer">
+      <ul>
+        <li><a href="#">Over ons</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Verzending & Retournering</a></li>
+        <li><a href="#">Privacybeleid</a></li>
+        <li><a href="#">Algemene voorwaarden</a></li>
+      </ul>
+    </section>
 
-      <section aria-label="Social media">
-        <ul>
-          <li><a href="#" aria-label="Volg ons op Instagram">Instagram</a></li>
-          <li><a href="#" aria-label="Volg ons op Facebook">Facebook</a></li>
-          <li><a href="#" aria-label="Volg ons op TikTok">TikTok</a></li>
-          <li><a href="#" aria-label="Volg ons op Pinterest">Pinterest</a></li>
-        </ul>
-      </section>
+    <section aria-label="Social media">
+      <ul>
+        <li><a href="#" aria-label="Volg ons op Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="Volg ons op Facebook">Facebook</a></li>
+        <li><a href="#" aria-label="Volg ons op TikTok">TikTok</a></li>
+        <li><a href="#" aria-label="Volg ons op Pinterest">Pinterest</a></li>
+      </ul>
+    </section>
 
-      <section aria-label="Nieuwsbrief inschrijving">
-        <h2>Abonneer je op onze nieuwsbrief</h2>
-        <form action="#" method="post">
-          <label for="email">E-mailadres:</label>
-          <input type="email" id="email" name="email" required>
-          <button type="submit">Abonneer</button>
-        </form>
-      </section>
-    </footer>
+    <section aria-label="Nieuwsbrief inschrijving">
+      <h2>Abonneer je op onze nieuwsbrief</h2>
+      <form action="#" method="post">
+        <label for="email">E-mailadres:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Abonneer</button>
+      </form>
+    </section>
+  </footer>
 
-
-	<script defer src="scripts/script.js"></script>
+  <script defer src="scripts/script.js"></script>
 </body>
-	
 </html>
