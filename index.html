@@ -40,7 +40,7 @@
         </button>
       </div>
 
-      <!-- Mobiele navigatie -->
+      <!--  navigatie lang -->
       <ul class="menu">
         <li><a href="index.html">Shop nu</a></li>
         <li><a href="index.html">Categorieën</a></li>
@@ -65,7 +65,7 @@
       </nav>
     </section>
   </main>
-
+  <!-- sieraden in een rij -->
   <section class="nieuwe-collectie" aria-label="Nieuwe Collectie">
     <div class="container">
       <h2>Nieuwe Collectie</h2>
@@ -141,6 +141,7 @@
     </div>
   </section>
   
+   <!-- 2 foto boxen -->
   <section class="highlight-section" aria-label="Uitgelichte Producten">
     <div class="highlight-box">
       <img src="images/kae1.gif" alt="Strikjes Familie">
@@ -161,7 +162,80 @@
     </div>
   </section>
   
+
+ <!-- sieraden verzorging-->
+  <section class="sieraden-verzorging" aria-labelledby="sieraden-verzorging-title">
+    <img src="images/sieradenverzorging.jpg" alt="Sieraden en juwelen op een doos" class="sieraden-afbeelding">
+    <div class="sieraden-container">
+      <h2 id="sieraden-verzorging-title">Sieraden Verzorging</h2>
+      <h3>Meer informatie over sieraden Verzorging</h3>
+      <a href="#" class="cta-button">Ontdek het</a>
+    </div>
+  </section>
+
+   <!-- slider 2-->
+  <section class="statement-oorbellen" aria-labelledby="statement-oorbellen-title">
+    <div class="statement-header">
+      <h3 id="statement-oorbellen-title">Statement Oorbellen</h3>
+      <a href="#" class="cta-button">Bekijk Alles</a>
+    </div>
+    <div class="product-slider">
+      <ul class="product-list">
+        <!-- Product 1 -->
+        <li class="product">
+          <img src="images/oorbellen1.jpg" alt="Statement roos oorbel">
+          <p>Statement roos oorbel - 424102Y</p>
+          <p>€169,00</p>
+        </li>
+        <!-- Product 2 -->
+        <li class="product">
+          <img src="images/oorbellen2.jpg" alt="Oorbel met gekleurde stenen en zoetwaterparel">
+          <p>Oorbel met gekleurde stenen en zoetwaterparel - 424105Y</p>
+          <p>€159,00</p>
+        </li>
+        <!-- Product 3 -->
+        <li class="product">
+          <img src="images/oorbellen3.jpg" alt="Statement oorbellen in de vorm van een schelp">
+          <p>Statement oorbellen in de vorm van een schelp - 424107Y</p>
+          <p>€159,00</p>
+        </li>
+          <!-- Product 4 -->
+          <li class="product">
+            <img src="images/oorbellen4.jpg" alt="Statement oorbellen in de vorm van een schelp">
+            <p>Statement oorbellen in de vorm van een schelp - 424107Y</p>
+            <p>€159,00</p>
+          </li>
+        <!-- Bekijk alle producten knop -->
+        <li class="product cta-slide">
+          <a href="#" class="cta-all-products">Bekijk alle 24 producten</a>
+        </li>
+      </ul>
+    </div>
+  </section>
   
+
+  <section aria-label="Video over sieradenverzorging">
+    <div class="video-container">
+      <video controls autoplay muted loop>
+        <source src="videos/sieraad.mp4" type="video/mp4">
+        Uw browser ondersteunt de video-tag niet.
+      </video>
+    </div>
+  </section>
+  
+  
+  <section class="nieuwsbrief" aria-labelledby="nieuwsbrief-titel">
+    <div class="nieuwsbrief-container">
+      <h2 id="nieuwsbrief-titel">Abonneer je op onze nieuwsbrief & ontvang 10% korting op je eerste bestelling</h2>
+      <p>Abonneer je op onze nieuwsbrief voor 10% welkomstkorting, speciale aanbiedingen en veel leuke inspiratie!</p>
+      <form action="#" method="POST" class="nieuwsbrief-form" aria-label="Nieuwsbrief inschrijving">
+        <input type="email" name="email" placeholder="Voer uw e-mailadres in" aria-label="Uw e-mailadres" required>
+        <button type="submit" aria-label="Verzenden">→</button>
+      </form>
+    </div>
+  </section>
+  
+    <!-- footer-->
   <footer>
     <section aria-label="Navigatie footer">
       <ul>
@@ -182,14 +256,7 @@
       </ul>
     </section>
 
-    <section aria-label="Nieuwsbrief inschrijving">
-      <h2>Abonneer je op onze nieuwsbrief</h2>
-      <form action="#" method="post">
-        <label for="email">E-mailadres:</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit">Abonneer</button>
-      </form>
-    </section>
+    
   </footer>
 
   <script defer src="scripts/script.js"></script>
