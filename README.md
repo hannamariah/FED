@@ -250,8 +250,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. bron 1 : carrousel thomas : 
+  2. bron 2 : w3schools : 
+  3. bron 3 : flexbox froggy :
+  4.  
+  5. 
+  6. bron 6: toggle menu : https://codepen.io/LayalaDev/pen/RwEYEPZ
+
+
+
 
 </details>
