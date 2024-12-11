@@ -1,5 +1,3 @@
-
-
 // Wacht tot de DOM volledig is geladen
 document.addEventListener("DOMContentLoaded", () => {
   let currentIndex = 0;
@@ -199,3 +197,64 @@ addToCartButton.addEventListener("click", function () {
 cartCount.onanimationend = () => {
   cartCount.classList.remove("updated");
 };
+
+  // bron : chatgpt ( readme), inspiratie : lara (student)//
+  
+document.getElementById('kerst-toggle').addEventListener('change', function () {
+  const startVideo = document.getElementById('startVideo');
+  const myVideo = document.getElementById('myVideo');
+  const kerstAudio = document.getElementById('kerst-audio');
+  const bgVideo = document.querySelector('.bgVideo');
+  const kerstSlinger = document.querySelector('.kerst-slinger');
+
+  if (this.checked) {
+      console.log('Kerst thema actief');
+      document.documentElement.classList.add('kerst');
+
+      // Reset video's en audio naar het begin
+      startVideo.currentTime = 0;
+      myVideo.currentTime = 0;
+      kerstAudio.pause(); // Stop de muziek als deze al speelt
+      kerstAudio.currentTime = 0; // Zet muziek terug naar het begin
+
+      // Start de muziek meteen
+      kerstAudio.play().catch(error => {
+          console.log("Muziek kon niet starten:", error);
+      });
+
+      // Laat de startvideo zien en speel af
+      bgVideo.classList.remove('hide');
+      kerstSlinger.classList.remove('hide');
+      startVideo.classList.remove('hide');
+      startVideo.play();
+
+      // Na 5 seconden: verberg de startvideo en start de kerstvideo
+      setTimeout(() => {
+          startVideo.pause();
+          startVideo.classList.add('hide'); // Verberg startvideo
+
+          myVideo.classList.remove('hide'); // Laat kerst achtergrondvideo zien
+          myVideo.play();
+      }, 5000); // 5 seconden overgang
+  } else {
+      console.log('Kerst thema uitgeschakeld');
+      document.documentElement.classList.remove('kerst');
+
+      // Stop en reset video's en audio
+      bgVideo.classList.add('hide');
+      kerstSlinger.classList.add('hide');
+      startVideo.pause();
+      startVideo.currentTime = 0; // Reset de startvideo
+      startVideo.classList.add('hide');
+
+      myVideo.pause();
+      myVideo.currentTime = 0; // Reset de kerstvideo
+      myVideo.classList.add('hide');
+
+      kerstAudio.pause();
+      kerstAudio.currentTime = 0; // Reset de muziek naar het begin
+  }
+});
+
+
+

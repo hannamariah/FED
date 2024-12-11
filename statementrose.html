@@ -13,9 +13,8 @@
   <header>
     <div class="promo-bar">
       <p>✔️ BLACK WEEK 20% OFF AND 60% OFF ARCHIVE SALE!</p>
-    </div>
-    
-
+    </div>    
+   
     <nav class="nav-bar">
       <!-- Hamburger menu -->
       <input type="checkbox" class="toggle-menu" id="menu-toggle">
@@ -27,13 +26,13 @@
 
       <!-- Toggle light/dark mode -->
       <label class="switch">
-        <input type="checkbox" id="modeToggle" aria-label="Schakel tussen licht en donker modus">
+        <input type="checkbox" id="modeToggle">
         <span class="slider round"></span>
-      </label>
+    </label>
 
       <!-- Logo -->
       <a href="index.html" class="logo">
-        <img src="images/logo.jpg" alt="24Kae logo">
+        <img src="images/logo.png" alt="24Kae logo">
       </a>
 
       <!-- Navigatie -->
@@ -46,14 +45,14 @@
 
       <div class="nav-icons">
         <button class="search-toggle" aria-label="Zoeken">
-          <img src="images/zoekicon.jpg" alt="Zoek icoon">
+          <img src="images/zoekicon.png" alt="Zoek icoon">
         </button>
         <button aria-label="Winkelmandje" class="shopping-cart">
-          <img src="images/mandjeicon.jpg" alt="Mandje icoon">
+          <img src="images/mandjeicon.png" alt="Mandje icoon">
           <span class="cart-count">0</span>
         </button>
       </div>
-      
+     </nav>
     
     <!-- Zoekbalk -->
     <div class="search-bar hidden">
@@ -63,7 +62,41 @@
   </header>
 
   <!-- Main Content -->
-  <main>
+  <main> 
+    <section class="section-index">
+      <!-- Toggle voor kerstthema -->
+      <fieldset style="text-align: center; margin: 20px 0;">
+        <label style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">
+            <input type="checkbox" id="kerst-toggle" style="transform: scale(1.5); margin-right: 10px;">
+            Kerst thema
+        </label>
+    </fieldset>    
+    
+      <!-- Achtergrondvideo's -->
+      <div class="bgVideo hide">
+          <!-- Startvideo -->
+          <video autoplay muted loop id="startVideo">
+              <source src="videos/kerst.mp4" type="video/mp4">
+          </video>
+  
+          <!-- Kerst achtergrondvideo -->
+          <video muted loop id="myVideo">
+              <source src="videos/snowbackground-video.mp4" type="video/mp4">
+          </video>
+      </div>
+  
+      <!-- Audio voor kerst -->
+      <audio id="kerst-audio">
+          <source src="audio/jingle-bells.mp3" type="audio/mp3">
+      </audio>
+  
+      <!-- Kerstslinger -->
+      <div class="kerst-slinger hide">
+          <img src="images/kerst.slinger.png" alt="kerst slinger">
+      </div>
+  </section>
+  
+  
     <section id="product-carousel" aria-label="Product Slideshow">
       <div class="carousel-container">
         <ul class="carousel-track">
@@ -149,7 +182,7 @@
     <section class="accordion-section">
       <!-- Verkooppunten -->
       <details open>
-        <nav>VERKOOPPUNTEN</nav>
+        <summary>Verkooppunten</summary>
         <div class="verkooppunten-content">
           <h3>KIES UW LAND</h3>
           <select name="land" id="land-select">
@@ -205,7 +238,7 @@
     
       <!-- Garantie -->
       <details>
-        <nav-icons>GARANTIE</nav-icons>
+        <summary>Garantie</summary>
         <div class="garantie-content">
           <p>
             24Kae sieraden hebben een garantie van 6 maanden op schade en/of defecten veroorzaakt door normale slijtage. Vanaf de aankoopdatum heeft u op de sieraden een garantie van 24 maanden, tegen fabricagefouten, ongeacht het land van aankoop. Uw 24Kae sieraden worden gratis gerepareerd of vervangen, mits het defect binnen de garantievoorwaarden valt. Indien de sieraden door derden worden gerepareerd, kunnen de sieraden niet geretourneerd worden. Deze garantie doet geen afbreuk aan de rechten en aanspraken van de consument waarin de toepasselijke nationale wetgeving voorziet.
@@ -215,7 +248,7 @@
     
       <!-- Een Vraag Stellen -->
       <details>
-        <nav-icons>EEN VRAAG STELLEN</summary>
+        <summary>Een vraag stellen</summary>
         <div class="vraag-stellen-content">
           <form action="#" method="post">
             <label for="naam">Naam</label>
@@ -240,7 +273,7 @@
         <li class="product">
           <a href="#">
             <div class="product-image">
-              <img src="images/test1.jpg" alt="Ring met gekleurde stenen">
+              <img src="images/oorbellen1.png" alt="Ring met gekleurde stenen">
             </div>
             <p>Ring met gekleurde stenen en gedraaide band - 124137S</p>
             <p>€109,00</p>
@@ -255,7 +288,7 @@
         <li class="product">
           <a href="#">
             <div class="product-image">
-              <img src="images/test2.jpg" alt="Ring met gekleurde stenen">
+              <img src="images/oorbellen2.png" alt="Ring met gekleurde stenen">
             </div>
             <p>Ring met gekleurde stenen en gedraaide band - 124137Y</p>
             <p>€119,00</p>
@@ -270,7 +303,7 @@
         <li class="product">
           <a href="#">
             <div class="product-image">
-              <img src="images/test3.jpg" alt="Oorbel met gekleurde stenen">
+              <img src="images/oorbellen3.png" alt="Oorbel met gekleurde stenen">
             </div>
             <p>Oorbel met gekleurde stenen en zoetwaterparel - 424109S</p>
             <p>€129,00</p>
@@ -285,7 +318,7 @@
         <li class="product">
           <a href="#">
             <div class="product-image">
-              <img src="images/test4.jpg" alt="Oorbel met gekleurde stenen">
+              <img src="images/oorbellen4.png" alt="Oorbel met gekleurde stenen">
             </div>
             <p>Oorbel met gekleurde stenen en zoetwaterparel - 424109Y</p>
             <p>€139,00</p>
@@ -305,7 +338,7 @@
         <li class="product">
           <a href="#">
             <div class="product-image">
-              <img src="images/test1.jpg" alt="Ring met gekleurde stenen">
+              <img src="images/ring1.png" alt="Ring met gekleurde stenen">
             </div>
             <p>Ring met gekleurde stenen en gedraaide band - 124137S</p>
             <p>€109,00</p>
@@ -320,7 +353,7 @@
         <li class="product">
           <a href="#">
             <div class="product-image">
-              <img src="images/test2.jpg" alt="Ring met gekleurde stenen">
+              <img src="images/ring2.png" alt="Ring met gekleurde stenen">
             </div>
             <p>Ring met gekleurde stenen en gedraaide band - 124137Y</p>
             <p>€119,00</p>
@@ -335,7 +368,7 @@
         <li class="product">
           <a href="#">
             <div class="product-image">
-              <img src="images/test3.jpg" alt="Oorbel met gekleurde stenen">
+              <img src="images/statementrose1.png" alt="Oorbel met gekleurde stenen">
             </div>
             <p>Oorbel met gekleurde stenen en zoetwaterparel - 424109S</p>
             <p>€129,00</p>
@@ -350,7 +383,7 @@
         <li class="product">
           <a href="#">
             <div class="product-image">
-              <img src="images/" alt="Oorbel met gekleurde stenen">
+              <img src="images/strikje1.png" alt="Oorbel met gekleurde stenen">
             </div>
             <p>Oorbel met gekleurde stenen en zoetwaterparel - 424109Y</p>
             <p>€139,00</p>
