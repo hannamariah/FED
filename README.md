@@ -256,7 +256,7 @@ Na mijn test heb ik vastgesteld dat mijn code grotendeels goed werkt met screenr
 
    ### vragen :
 
-   * 
+   * responsive
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -319,9 +319,10 @@ Na mijn test heb ik vastgesteld dat mijn code grotendeels goed werkt met screenr
   1. bron 1 : carrousel thomas : 
   2. bron 2 : w3schools : 
   3. bron 3 : flexbox froggy :
-  4.  
+  4. bron 4 : search bar : https://www.w3schools.com/howto/howto_css_searchbar.asp
   5. 
   6. bron 6: toggle menu : https://codepen.io/LayalaDev/pen/RwEYEPZ
+  7. bron 7 : dark color scheme : https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme 
 
 
 
