@@ -282,7 +282,16 @@ Na mijn test heb ik vastgesteld dat mijn code grotendeels goed werkt met screenr
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/sspagina1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/sspagina2.png" width="375px" alt="uitomst opdracht 1">
+
+  <img src="readme-images/pagina4.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/pagina4ss.png" width="375px" alt="uitomst opdracht 1">
+
+  <img src="readme-images/kerst1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/kerst2.png" width="375px" alt="uitomst opdracht 1">
+
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -314,7 +323,7 @@ Mijn slideshow en dark/lightmode toggleswitch is  mijn hoogtepunt, omdat ik daar
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/hamburger.png" width="375px" alt="bummer">
 </details>
 
 
@@ -343,7 +352,7 @@ Het was moeilijk om alles consistent te houden op mijn pagina. Sommige onderdele
 Wat ik zou willen verbeteren:
 
 Als ik meer tijd had, zou ik:
-Mijn hamburger-menu nog een kans geven.
+Mijn hamburger-menu nog een kans geven. en de font juist plaatsen
 De footer mooier maken en beter laten aansluiten bij de rest.
 Meer aandacht besteden aan responsiveness en zorgen dat mijn site ook op desktop goed werkt.
 
