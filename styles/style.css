@@ -8,7 +8,7 @@
 }
 
 
-/* CSS Custom Propertie dark mode toggle */
+/* CSS Custom Propertie voor dark mode toggle */
 @media screen {
   :root {
   --background-color: #ffffff;
@@ -19,7 +19,8 @@
 }
 }
 
-/* CSS Custom Propertie dark mode  */
+/* CSS Custom Propertie dark mode ttps://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme*/
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: rgb(0, 0, 0);
